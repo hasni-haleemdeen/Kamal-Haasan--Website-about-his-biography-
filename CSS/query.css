@@ -1,0 +1,13 @@
+body{
+	
+	background-color:black;
+	color:white;
+	
+	background-image: url("../images/hori.jpg");
+		
+}
+.query{
+	padding:100px;
+	
+	bottom:0;
+}

@@ -1,0 +1,257 @@
+
+
+nav{
+	background-color:black;
+	background-size: 150px 100px ;
+	
+	
+}
+.logo img {
+	width:200px;
+	float:left;
+	height:100px;
+	justify-content:left;
+	margin-left:-140px;
+	
+}
+
+.container {
+	z-index: 70;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background:black;
+	/*background-color: rgba(46, 64, 83 , 0.9);*/
+}
+
+.nav_list {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 80px;
+	list-style:none;
+}
+
+.nav_list li {
+	display: inline-block;
+	align-content: center;
+	align-items: center;
+	margin-left: 50px;
+	padding: 20px;
+}
+
+.nav_list li a {
+	color:  #e5e8e8 ; 
+	text-decoration: none;
+}
+
+.nav_list li a:hover {
+	background-color: #081234;
+	color: 	#DAA520;
+}
+
+/* footer css */
+footer {
+	
+	position: relative;
+	height: 17rem;
+	background-color: black;
+	padding: 20px 180px;
+	font-size:13px;
+}
+
+.footer_container {
+	display: flex;
+}
+
+.footer_item {
+    margin: 0 50px;
+}
+
+/* social media */
+.social_media {
+	display: flex;
+}
+
+.sm_link {
+	text-decoration: none;
+	color: 	#DAA520;
+	font-size: 2rem;
+	width: 6rem;
+	display: flex;
+}
+
+.sm_link:hover {
+	color: #111;
+}
+
+.contact li {
+	list-style-type: none;
+	margin: 15px 0;
+}
+
+.contact_link a {
+	text-decoration: none;
+	color: 	#DAA520;
+}
+
+.contact_link a:hover {
+	color: #111;
+}
+
+/* editor page */
+#editor {
+	position: absolute;
+	right: 0;
+	top: 540vh;
+}
+
+#editor a {
+	text-decoration: none;
+	background-color: #000;
+	color: #fff;
+	position: relative;
+	width: 8%;
+	border-radius: 10px; 
+	padding: 20px;
+}
+
+#editor a:hover {
+	background-color: #d35400;
+	color: #ffffff; ;
+}
+h4 {
+	color: #000;
+}
+
+.footer_item h2{
+	font-size:20px;
+}
+
+
+
+html {
+	font-size:10px;
+}
+
+body {
+	
+	font-size:1.6rem;
+	font-family:"Open Sans", sans-serif;
+	/*background-color: #212f3c;*/
+	background-color:white;
+}
+
+/* editor page */
+#editor4 {
+	position: absolute;
+	right: 0;
+	top: 780vh;
+}
+
+#editor4 a {
+	text-decoration: none;
+	background-color: #000;
+	color: #fff;
+	position: relative;
+	width: 8%;
+	border-radius: 10px; 
+	padding: 20px;
+}
+
+#editor4 a:hover {
+	background-color: #DAA520;
+	color: #ffffff; ;
+}
+
+#editor9{
+	position: absolute;
+	right: 0;
+	top: 390vh;
+}
+
+#editor9 a {
+	text-decoration: none;
+	background-color: #000;
+	color: #fff;
+	position: relative;
+	width: 8%;
+	border-radius: 10px; 
+	padding: 20px;
+}
+
+#editor9 a:hover {
+	background-color: #DAA520;
+	color: #ffffff; ;
+}
+
+#editor8{
+	position: absolute;
+	right: 0;
+	top: 75vh;
+}
+
+#editor8 a {
+	text-decoration: none;
+	background-color: #000;
+	color: #fff;
+	position: relative;
+	width: 8%;
+	border-radius: 10px; 
+	padding: 20px;
+}
+
+#editor8 a:hover {
+	background-color: #DAA520;
+	color: #ffffff; ;
+}
+
+#editor11{
+	position: absolute;
+	right: 0;
+	top: 65vh;
+}
+
+#editor11 a {
+	text-decoration: none;
+	background-color: #000;
+	color: #fff;
+	position: relative;
+	width: 8%;
+	border-radius: 10px; 
+	padding: 20px;
+}
+
+#editor11 a:hover {
+	background-color: #DAA520;
+	color: #ffffff; ;
+}
+
+
+#editor0{
+	position: absolute;
+	right: 0;
+	top: 60vh;
+}
+
+#editor0 a {
+	text-decoration: none;
+	background-color: #000;
+	color: #fff;
+	position: relative;
+	width: 8%;
+	border-radius: 10px; 
+	padding: 20px;
+}
+
+#editor0 a:hover {
+	background-color: #DAA520;
+	color: #ffffff; ;
+}
+
+
+
+
+

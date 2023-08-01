@@ -1,0 +1,183 @@
+
+
+
+.content{
+	padding:20px 20px 20px 20px;
+	
+}
+.content img{
+	height:400px;
+	width:300px;
+	
+	
+
+}
+.content li{
+	font-size:30px;
+}
+.content p {
+	font-size:20px;
+	background:black;
+	padding:10px 10px 10px 10px;
+
+	
+}
+body{
+	background-color:black;
+	color:white;
+	font-family:"Courier New", Courier, monospace;
+	background-image: url("../images/hori.jpg");
+	
+	
+	
+}
+h2{
+	font-size:30px;
+}
+
+hr{
+	border:none;
+}
+h1{
+	font-family:"Open Sans", sans-serif;
+
+	text-align:center;
+}
+
+
+.storeheading{
+	font-family:"Courier New", Courier, monospace;
+	background:black;
+	font-size:30px;
+}
+
+.obj1,.obj2,.obj3,.obj4,.obj5,.obj6{
+	font-family: "Courier New", Courier, monospace;
+	background:white;
+	color:white;
+	border:none;
+	height:25%;
+	width:55%;	
+	padding:10px 10px 10px 10px;
+	margin:auto;
+	border-radius:40px;
+	background-image: url("../images/mm.jpg");
+	font-size:20px;
+	
+}
+.image{
+	border:5px solid white;
+	padding:10px 10px 10px 10px;
+	margin-left:35%;
+}
+.details{
+	font-family:"Courier New", Courier, monospace;
+	background:black;
+	color:white;
+	border:5px solid black;
+	border-radius:10px;
+	height:25%;
+	width:30%;	
+	padding:10px 10px 10px 10px;
+	margin:auto;
+	
+	
+	
+}
+.product_des{
+	margin-left:2%;
+	text-align:center;
+	padding-bottom:20px;
+
+}
+.products h2{
+	text-align:center;
+	
+}
+.storetop{
+	height:700px;
+	width:100%;
+	background-image: url("../images/ks.jpg");
+	background-size: cover;
+	
+	
+}
+.addcart{
+	font-family:"Courier New", Courier, monospace;
+	float:right;
+	margin-right:10px;
+	margin-bottom:30px;
+	
+}
+.orderbutton{
+
+	float:right;
+	padding:10px 10px 10px 10px;
+	padding-left:50%;
+}
+
+
+.products input{
+	width:100px;
+}
+	
+input[type=submit]{
+  font-family:"Courier New", Courier, monospace;
+  background-color: black;
+  border: 3px solid white;
+  color: white;
+  padding: 10px 40px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+ 
+}
+  
+  input[type=reset]{
+  font-family:"Courier New", Courier, monospace;
+  background-color: black;
+  border:3px solid white;
+  color: white;
+  padding: 10px 40px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  }
+  
+  
+  .content{
+	padding:20px 20px 20px 20px;
+	
+}
+.content img{
+	height:400px;
+	width:300px;
+	
+	
+
+}
+.content li{
+	font-size:30px;
+}
+.content p {
+	font-size:20px;
+	background:black;
+	padding:10px 10px 10px 10px;
+
+	
+}
+.vithyabavan img {
+	height:300px;
+	width:250px;
+	padding:10px 10px 10px 10px;
+	border:5px solid white;	
+}
+
+
+
+
+
+
+
+
+

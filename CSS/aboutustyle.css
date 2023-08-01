@@ -1,0 +1,108 @@
+
+body{
+	padding:30px;
+	margin:0;
+	background-image: url("../images/hori.jpg");
+	color:white;
+	
+		
+}
+
+.footer_container{
+	color:white;
+	padding:0;
+	
+	
+}
+
+.image{
+    position:relative;
+	width:25%;
+}
+
+/*Styling image size and padding image*/
+.image__img {
+	padding:3px;
+	display: block;
+	height: 320px;
+	width:40%;
+	min-width: 100%;
+	max-width: 100%;
+}
+
+/*Rollover effect fot the images*/
+.image__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.image__overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+    opacity: 1;
+}
+
+.image__overlay:hover > * {
+    transform: translateY(0);
+}
+
+/*Styling font*/
+.image__title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/*Styling font*/
+.image__description {
+    font-size: 1.25em;
+    margin-top: 0.25em;
+}
+
+/*Padding between images*/
+*{
+  box-sizing: border-box;
+}
+
+/*Displays images inline*/
+.images{
+  display: flex;
+  padding-bottom:50px;
+  padding-left:20px;
+  padding-right:20px;
+  padding-top:10px
+}
+/* editor page */
+#editor10 {
+	position: absolute;
+	right: 0;
+	top: 75vh;
+}
+
+#editor10 a {
+	text-decoration: none;
+	background-color: #000;
+	color: #fff;
+	position: relative;
+	width: 8%;
+	border-radius: 10px; 
+	padding: 20px;
+}
+
+#editor10 a:hover {
+	background-color: #DAA520;
+	color: #ffffff; ;
+}

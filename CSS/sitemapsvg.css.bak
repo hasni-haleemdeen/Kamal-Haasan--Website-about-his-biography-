@@ -1,0 +1,114 @@
+
+
+
+.rect{
+    fill: #008800;
+    stroke: #000000;
+    stroke-width: 2;
+}
+h1{color:rgb(153, 0, 51);
+   text-align: center; 
+}
+.line{
+    fill: #008888;
+    stroke: #000000;
+    stroke-width: 4;
+}
+
+#Sitemap{
+	position: absolute;
+    top: 110px;
+    left: 590px;
+    color: black;
+}
+#HOme{
+    position: absolute;
+    top: 235px;
+    left: 80px;
+    color:black;
+}
+#Products{
+	position: absolute;
+    top: 235px;
+    left: 270px;
+    color:black;
+	
+}
+#Quiz{
+	position: absolute;
+    top: 235px;
+    left: 510px;
+    color:black;
+}
+#Query{
+	position: absolute;
+    top: 235px;
+    left: 715px;
+    color:black;
+}
+#AboutUs{
+	position: absolute;
+    top: 235px;
+    left: 945px;
+    color:black;
+}
+#Images{
+	position: absolute;
+    top: 235px;
+    left: 1225px;
+    color:black;
+}
+#personal{
+	position: absolute;
+    top:385px;
+    left: 920px;
+    color:black;
+}
+#film{
+	position: absolute;
+    top: 485px;
+    left: 1005px;
+    color:black;
+}
+#awards{
+	position: absolute;
+    top: 385px;
+    left: 1050px;
+    color:black;
+}
+#political{
+	position: absolute;
+    top: 485px;
+    left: 1160px;
+    color:black;
+}
+#social{
+	position: absolute;
+    top: 385px;
+    left: 1220px;
+    color:black;
+}
+#bio{
+	position: absolute;
+    top: 385px;
+    left: 85px;
+    color:black;
+}
+#fam{
+	position: absolute;
+    top: 385px;
+    left: 215px;
+    color:black;
+}
+#fun{
+	position: absolute;
+    top: 385px;
+    left: 370px;
+    color:black;
+}
+#tec{
+	position: absolute;
+    top: 385px;
+    left: 530px;
+    color:black;
+}

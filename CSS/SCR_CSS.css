@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body{
+	font-size: 10px;
+	font-family: 'Poppins', sans-serif;
+	color: #fff;
+	box-sizing: border-box;
+	background-color: rgb(41, 141, 187);
+	background-image: url("../images/hori.jpg");
+
+}
+.b{
+	font-size: 20px;
+}
+h1{
+	text-align: center;
+	font-size: 30px;
+	color: gold;
+
+}
+.question{
+	font-weight: 600;
+}
+.answers {
+  margin-bottom: 20px;
+}
+.answers label{
+  display: block;
+}
+#submit{
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color: #279;
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding: 10px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+#submit:hover{
+	background-color: #38a;
+}
+
+#box{
+	line-height:1.5em;
+}
+
+.b{
+	width:100%;
+	height:1900px;
+}
+.b #time {
+
+	border-radius: 10px;
+	position:fixed;
+	right:0; 
+	top:150px;
+	padding: 10px;
+	background:#404040;
+	font-size: 14px;
+	color: WhiteSmoke ;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	} 
+
+.container2{
+	padding-top:120px;
+}
+/* editor page */
+#editor2 {
+	position: absolute;
+	right: 0;
+	top: 270vh;
+}
+
+#editor2 a {
+	text-decoration: none;
+	background-color: #000;
+	color: #fff;
+	position: relative;
+	width: 8%;
+	border-radius: 10px; 
+	padding: 20px;
+}
+
+#editor2 a:hover {
+	background-color: #DAA520;
+	color: #ffffff; ;
+}
+

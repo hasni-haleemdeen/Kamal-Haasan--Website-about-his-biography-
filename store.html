@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset= "UTF-8">
+		<title>Store-Kamal Hassan</title>
+		<link rel="stylesheet" type="text/css" href="CSS/store.css">
+		<link rel="stylesheet" href="CSS/nav.css">
+		<script src="https://kit.fontawesome.com/8a08717fcf.js" crossorigin="anonymous"></script>
+	
+	
+	</head>
+	<body id="top">
+	<div class="storetop">     <!--- Navigation bar--->
+	
+			<div class="container">
+				<ul class="nav_list">
+					<li><div class="logo">
+						<a href="main_page.html">
+							<img src="images/logo2.png" alt="logo" class="Hello">
+						</a>
+					</div> 
+					<li><a href="main_page.html">Home</a></li>
+				   <li><a href="store.html">Products</a></li>
+				   <li><a href="query.html">Query</a></li>
+				   <li><a href="sitemap.html">Diagram Svg</a></li>
+				   <li><a href="Thumbnail_Page.html">Thumbnail images</a></li>
+				   <li><a href="aboutus.html">Student Details</a></li>
+				   <li><a href="QuizMain.html">Quiz</a></li>
+			   </ul>
+			</div>
+	                           
+							   <!--- Store Heading--->
+	
+		
+	</div>
+	<div class="storeheading">
+		<h1>Ulaganayagan Super Store</h1>
+		<hr>
+	</div>
+	<hr>
+	<hr>
+	                           <!--- Personal Details--->
+	<form name="form1" onsubmit="return validate()">
+	<div class="details">
+				<table>
+					<tr>
+						<td><label for="name"> <b>Full Name : </b> </label><br><br></td>
+						<td><input type="text" id="name" name="fullname" style="color:grey" placeholder="Name"><br><br></td>
+					</tr>
+					<tr>					
+						<td><label for="mnumber"><b>Phone No. : </b> </label><br><br></td>
+						<td><input type="text" id="mnumber" name="number" style="color:grey" placeholder="Phone"><br><br></td>
+					</tr>
+					<tr>
+						<td><label for="email"><b> E-mail : </b></label><br><br></td>
+						<td><input type="email" id="email" name="email" style="color:grey" placeholder="Email"><br><br></td>
+					</tr>
+					<tr>
+						<td><label for="address"> <b>Address : </b> </label><br><br></td>
+						<td><input type="text" id="address" name="address" style="color:grey" placeholder="Address"><br><br></td>
+					</tr>
+					
+				</table>
+			</div>
+			<hr>
+			                               <!--- Products--->
+			<div class="products">
+			<div class="obj1">
+				<div class="pic">
+				<img class="image" alt="T-shirt" src="images/ghost.jpeg" width="200" height="200">
+					<h2>Kamal Hassan T-Shirt(Red) </h2>
+				</div>
+				<div class="product_des">
+					<p>Price : <b>Rs 1500.00 </b></p>
+					<p>Shipping: Free</p>
+					<p>Quantity:
+					<input id="product1" type="number" name="quantity" min="0" style="color:black"></P>
+					<button class="addcart" type="button" onclick="order1()">&#128722; Add To Cart </button>
+				</div>
+			</div>
+			</div>
+			
+			<hr>
+			<hr>
+			
+			<div class="products">
+			<div class="obj2">
+				<div class="pic">
+					<img class="image" alt="T-shirt" src="images/ghost2.jpeg" width="200" height="200">
+					<h2>Kamal Hassan T-Shirt(Black) </h2>
+				</div>
+				<div class="product_des">
+					<p>Price : <b>Rs 1500.00 </b></P>
+					<p>Shipping: Free</p>
+					<p>Quantity:
+					<input id="product2" type="number" name="quantity" min="0" style="color:black"></p>
+					<button class="addcart" type="button" onclick="order2()">&#128722; Add To Cart </button>
+				</div>
+			</div>
+			</div>
+			
+			<hr>
+			<hr>
+			
+			<div class="products">
+			<div class="obj3">
+				<div class="pic">
+					<img class="image" alt="T-shirt" src="images/KHshirt1.jpg" width="200" height="200">
+					<h2>Kamal Hassan Hoodie(Anbe Shivam) </h2>
+				</div>
+				<div class="product_des">
+					<p>Price : <b>Rs 3500.00 </b></p>
+					<p>Shipping: Free</p>
+					<p>Quantity:
+					<input id="product3" type="number" name="quantity" min="0" style="color:black"></p>
+					<button class="addcart" type="button" onclick="order3()">&#128722; Add To Cart </button>
+				</div>
+			</div>
+			</div>
+			
+			<hr>
+			<hr>
+			
+			<div class="products">
+			<div class="obj4">
+				<div class="pic">
+					<img class="image" alt="poster" src="images/KHposter2.jpg" width="200" height="200">
+					<h2>Anbe Shivam Poster </h2>
+				</div>
+				<div class="product_des">
+					<p>Price : <b>Rs 500.00 </b></p>
+					<p>Shipping: Free</p>
+					<p>Quantity:
+					<input id="product4" type="number" name="quantity" min="0" style="color:black"></p>
+					<button class="addcart" type="button" onclick="order4()">&#128722; Add To Cart </button>
+				</div>
+			</div>
+			</div>
+			
+			<hr>
+			<hr>
+			
+			<div class="products">
+			<div class="obj5">
+				<div class="pic">
+					<img class="image" alt="T-shirt" src="images/KHposter1.jpg" width="200" height="200">
+					<h2>Kamal Hassan Poster</h2>
+				</div>
+				<div class="product_des">
+					<p>Price : <b>Rs 800.00 </b><br><p>
+					<p>Shipping: Free</p>
+					<p>Quantity:
+					<input id="product5" type="number" name="quantity" min="0" style="color:black"></p>
+					<button class="addcart" type="button" onclick="order5()">&#128722; Add To Cart </button>
+				</div>
+			</div>
+			</div>
+			
+			<hr>
+			<hr>
+			
+			<div class="products">
+			<div class="obj6">
+				<div class="pic">
+					<img class="image" alt="T-shirt" src="images/kamalsh.png" width="200" height="200">
+					<h2>Kamal Hassan T-Shirt(Black) </h2>
+				</div>
+				<div class="product_des">
+					<p>Price : <b>Rs 2500.00 </b></p>
+					<p>Shipping: Free</p>
+					<p>Quantity:
+					<input id="product6" type="number" name="quantity" min="0" style="color:black" ></p>
+					<button class="addcart" type="button" onclick="order6()">&#128722; Add To Cart </button>
+				</div>
+				</div>
+			</div>
+			
+			<hr> 
+			<hr>
+			                                      <!---Order Button , Reset Button--->
+				<div class="order">
+				<div class="orderbutton">
+					<input type="submit" value="Order" class="purchase">
+					<input type="reset" value="Reset" class="reset">
+				</div>
+				</div>
+			
+	</form> 
+	                                          
+	 <script src="JavaSC/store.js"></script>
+	                                    <!--- Back to Top and Editor page--->
+										
+			
+	 <div class="bottom">
+		<br>
+			<br>
+			<div id="editor"><h4><a href="editor_vithyabavan.html">EDITOR</a></h4></div>
+			<a href="#top" style="text-decoration:none; border: 3px solid white; color:white;"> Back To Top </a>
+			
+			<br>
+			<br>
+	  </div>
+		  
+	  <!-- footer design -->
+		<footer>
+			<div class="footer_container">
+			    <div class="footer_item">
+					<div class="info">
+						
+					</div>
+				</div>
+				
+				<div class="footer_item">
+					<h2>CONTACT INFO</h2>
+					<ul class="contact">
+						<li class="contact_link"><a href="https://www.google.com/maps"><i class="fa-solid fa-map-location-dot"></i></a>&nbsp;&nbsp;31/4 Nallur ,Jaffna<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sri Lanka</li>
+						<li class="contact_link"><a href="https://www.google.com/gmail/about/"><i class="fa-solid fa-envelope-open-text"></i></a>&nbsp;&nbsp; 20211306.gapilesh@iit.ac.lk.com</li>
+						<li class="contact_link"><a href=""><i class="fa-solid fa-phone"></i></a>&nbsp;&nbsp;0771383163</li>
+						<li class="contact_link"><a href="main_page.html"><i class="fa-solid fa-globe"></i></a>&nbsp;&nbsp;ichiraku.lk</li>
+					</ul>	
+				</div>
+				
+				<div class="footer_item">
+					<h2>FOLLOW US</h2>
+					<br>
+					<div class="social_media">
+						<a class="sm_link" href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+						<a class="sm_link" href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+						<a class="sm_link" href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+						<a class="sm_link" href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+						<a class="sm_link" href="https://www.behance.net/"><i class="fa-brands fa-behance"></i></a>
+					</div>
+				</div>
+				
+			</div>	
+		</footer>	  
+	
+		
+	</body>
+</html>
